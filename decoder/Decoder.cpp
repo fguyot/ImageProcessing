@@ -1,9 +1,13 @@
 #include "Decoder.h"
 #include <iostream>
 
-Decoder::Decoder(){
+Decoder::Decoder() { 
 }
 
-void Decoder::init(){
+void Decoder::init() {
 	std::cout << "init Decoder\n";
+}
+
+void Decoder::loop() {
+	std::cout << "loop Decoder\n";
 }

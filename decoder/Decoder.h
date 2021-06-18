@@ -6,6 +6,7 @@ class Decoder
 public : 
 	Decoder();
 	void init();
+	void loop();
 private:
 
 };
